@@ -1,56 +1,18 @@
 import React, { useState } from "react";
-import { useQuery } from "@apollo/react-hooks";
-import { gql } from "apollo-boost";
-import debounce from "lodash.debounce";
-import "./App.css";
-
-const COUNTRIES = gql`
-  query($name: String) {
-    Country(name: $name) {
-      name
-      nativeName
-      capital
-      flag {
-        emoji
-        emojiUnicode
-        svgFile
-      }
-    }
-  }
-`;
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Countries from "./Countries";
+import Country from "./Country";
 
 const App = () => {
-  const [name, setName] = useState("");
-
-  const { loading, error, data } = useQuery(COUNTRIES, {
-    variables: { name: name || undefined },
-  });
-
-  const setSearchName = debounce((searchTerm) => {
-    setName(searchTerm);
-  }, 1000);
-
-  const renderList = (list) => (
-    <ul>
-      {list.map(({ flag, name, capital }) => (
-        <li key={name}>
-          <img src={flag.svgFile} />
-          {name} - {capital}
-        </li>
-      ))}
-    </ul>
-  );
-
   return (
     <>
-      <input
-        type="text"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      {loading && <p>Loading...</p>}
-      {error && <p>Error :</p>}
-      {data && renderList(data.Country)}
+      <div>Header</div>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact={true} component={Countries} />
+          <Route path="/:name" component={Country} />
+        </Switch>
+      </BrowserRouter>
     </>
   );
 };
