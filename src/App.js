@@ -10,7 +10,7 @@ const { Header, Footer, Content } = Layout;
 
 const App = () => {
   return (
-    <BrowserRouter basename="/react-graphcountries">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Layout>
         <Header>
           React - Graph countries
