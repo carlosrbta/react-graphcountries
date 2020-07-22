@@ -9,7 +9,7 @@ import "./styles.scss";
 
 const { Title, Text } = Typography;
 
-export const COUNTRY = gql`
+const COUNTRY = gql`
   query($name: String!) {
     Country(name: $name) {
       name

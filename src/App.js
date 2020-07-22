@@ -10,7 +10,7 @@ const { Header, Footer, Content } = Layout;
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-graphcountries">
       <Layout>
         <Header>
           React - Graph countries
@@ -26,7 +26,7 @@ const App = () => {
         <Content>
           <Switch>
             <Route path="/" exact={true} component={Countries} />
-            <Route path="/:name" exact component={Country} />
+            <Route path="/:name" component={Country} />
             <Route path="/:name/edit" component={CountryEdit} />
           </Switch>
         </Content>

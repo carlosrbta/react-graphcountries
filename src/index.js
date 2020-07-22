@@ -3,7 +3,11 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { ApolloProvider } from "@apollo/react-hooks";
-import { client } from "./client";
+import ApolloClient from "apollo-boost";
+
+const client = new ApolloClient({
+  uri: "https://countries-274616.ew.r.appspot.com",
+});
 
 ReactDOM.render(
   <React.StrictMode>
