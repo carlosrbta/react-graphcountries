@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import Countries from "./pages/Countries";
 import Country from "./pages/Country";
 import CountryEdit from "./pages/CountryEdit";
@@ -10,7 +10,7 @@ const { Header, Footer, Content } = Layout;
 
 const App = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename="/">
       <Layout>
         <Header>
           React - Graph countries
@@ -26,7 +26,7 @@ const App = () => {
         <Content>
           <Switch>
             <Route path="/" exact={true} component={Countries} />
-            <Route path="/:name" component={Country} />
+            <Route path="/:name" exact component={Country} />
             <Route path="/:name/edit" component={CountryEdit} />
           </Switch>
         </Content>
@@ -42,7 +42,7 @@ const App = () => {
           . All rights reserved.
         </Footer>
       </Layout>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
