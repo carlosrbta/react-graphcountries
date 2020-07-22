@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-graphcountries/static/css/main.e56404d2.chunk.css",
-    "main.js": "/react-graphcountries/static/js/main.56f00c17.chunk.js",
-    "main.js.map": "/react-graphcountries/static/js/main.56f00c17.chunk.js.map",
+    "main.js": "/react-graphcountries/static/js/main.64d7f2ad.chunk.js",
+    "main.js.map": "/react-graphcountries/static/js/main.64d7f2ad.chunk.js.map",
     "runtime-main.js": "/react-graphcountries/static/js/runtime-main.b7e4149a.js",
     "runtime-main.js.map": "/react-graphcountries/static/js/runtime-main.b7e4149a.js.map",
     "static/css/2.235c98d2.chunk.css": "/react-graphcountries/static/css/2.235c98d2.chunk.css",
     "static/js/2.237c7703.chunk.js": "/react-graphcountries/static/js/2.237c7703.chunk.js",
     "static/js/2.237c7703.chunk.js.map": "/react-graphcountries/static/js/2.237c7703.chunk.js.map",
     "index.html": "/react-graphcountries/index.html",
-    "precache-manifest.88cfc966b40ca99d4906241a67b9d001.js": "/react-graphcountries/precache-manifest.88cfc966b40ca99d4906241a67b9d001.js",
+    "precache-manifest.26e5cccd543234a6f0ab1af359c32a1c.js": "/react-graphcountries/precache-manifest.26e5cccd543234a6f0ab1af359c32a1c.js",
     "service-worker.js": "/react-graphcountries/service-worker.js",
     "static/css/2.235c98d2.chunk.css.map": "/react-graphcountries/static/css/2.235c98d2.chunk.css.map",
     "static/css/main.e56404d2.chunk.css.map": "/react-graphcountries/static/css/main.e56404d2.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.235c98d2.chunk.css",
     "static/js/2.237c7703.chunk.js",
     "static/css/main.e56404d2.chunk.css",
-    "static/js/main.56f00c17.chunk.js"
+    "static/js/main.64d7f2ad.chunk.js"
   ]
 }
