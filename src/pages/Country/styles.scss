@@ -1,0 +1,36 @@
+.page-country {
+  img {
+    width: 100%;
+    max-height: 125px;
+    max-width: 207px;
+    object-fit: cover;
+  }
+
+  .details-country {
+    .ant-typography strong {
+      display: block;
+    }
+
+    .ant-typography strong .ant-typography {
+      font-weight: normal;
+    }
+  }
+
+  .footer-btn {
+    margin-top: 20px;
+
+    .ant-btn:first-child {
+      margin-right: 10px;
+    }
+  }
+
+  .ant-btn-link {
+    padding: 0px 4px;
+  }
+
+  @media (max-width: 576px) {
+    .ant-typography {
+      margin-top: 15px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@import "~antd/dist/antd.css";
+
+body,
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden;
+}
+
+.ant-layout-content {
+  padding: 20px;
+  min-height: calc(100vh - 64px - 70px);
+}
+
+.ant-layout-header {
+  color: #fff;
+  padding: 0px 22px;
+}
+
+.ant-layout-footer {
+  text-align: center;
+  color: #fff;
+  background: #001529;
+}
+
+.header-docs {
+  float: right;
+  text-decoration: none;
+  color: #fff;
+}
