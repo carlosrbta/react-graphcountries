@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3fa100808874c40feb0c2f33ad6b8491",
+    "revision": "0feaefa6242fce1554baf6a1045a1ff5",
     "url": "/react-graphcountries/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-graphcountries/static/css/2.235c98d2.chunk.css"
   },
   {
-    "revision": "48aba8d9d3acb342d2e8",
+    "revision": "619d4f830f13662763da",
     "url": "/react-graphcountries/static/css/main.e56404d2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-graphcountries/static/js/2.74d0e5d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "48aba8d9d3acb342d2e8",
-    "url": "/react-graphcountries/static/js/main.6e6a8449.chunk.js"
+    "revision": "619d4f830f13662763da",
+    "url": "/react-graphcountries/static/js/main.96ecd411.chunk.js"
   },
   {
     "revision": "76b3740445227b8ec114",
